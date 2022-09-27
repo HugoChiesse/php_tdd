@@ -1,0 +1,22 @@
+{
+    "name": "hugochiesse/php_tdd",
+    "description": "PHP With TDD",
+    "authors": [
+        {
+            "name": "Hugo Chiesse",
+            "email": "hugochiesse@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "src/Core/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9",
+        "mockery/mockery": "^1.5"
+    },
+    "scripts": {
+        "phpunit": "vendor/bin/phpunit"
+    }
+}
