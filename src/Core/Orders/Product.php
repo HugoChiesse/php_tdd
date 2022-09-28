@@ -5,10 +5,26 @@ namespace Core\Orders;
 class Product
 {
     public function __construct(
+        protected string $id,
         protected string $name,
         protected float $price,
-        protected float $total
+        protected float $total,
     ) {
+    }
+
+    public function getName(): string
+    {
+        return $this->name;
+    }
+
+    public function getPrice(): float
+    {
+        return $this->price;
+    }
+
+    public function getId(): int
+    {
+        return $this->id;
     }
 
     public function total(): float

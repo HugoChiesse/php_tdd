@@ -5,7 +5,7 @@ namespace Tests\Core\Orders;
 use Core\Orders\Customer;
 use PHPUnit\Framework\TestCase;
 
-class CustomerTest extends TestCase
+class CustomerUnitTest extends TestCase
 {
     public function testAttributes()
     {
